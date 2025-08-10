@@ -1,0 +1,88 @@
+##############################
+# .NET / ASP.NET Core
+##############################
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.jfm
+*.pdb
+*.opendb
+*.Publish.xml
+*.pubxml
+*.publishproj
+*.csproj.user
+*.vscode/
+.vs/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+Migrations/
+
+##############################
+# Angular / Node.js
+##############################
+node_modules/
+dist/
+tmp/
+out-tsc/
+.angular/
+.angular-cache/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+pnpm-lock.yaml
+
+# Angular build cache
+.angular/cache/
+
+##############################
+# IDE / Editors
+##############################
+# Visual Studio
+*.rsuser
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+##############################
+# OS-specific
+##############################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+##############################
+# Other
+##############################
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*

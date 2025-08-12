@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Appartment.Domain\Appartment.Domain.csproj" />
+    <ProjectReference Include="..\Appartment.Infrastructure\Appartment.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

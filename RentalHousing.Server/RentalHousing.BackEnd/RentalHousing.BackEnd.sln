@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+VisualStudioVersion = 17.14.36121.58
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd.User", "BackEnd.User", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd.Appartment", "BackEnd.Appartment", "{C27E2BAC-8247-43AE-9041-7D4C12044ACD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appartment.Domain", "Appartment.Domain\Appartment.Domain.csproj", "{A877AEC5-F586-4C0F-8DDD-F8CB4FA2EF04}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{796843FC-CE03-45F2-992A-471A2150D371}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appartment.Application", "Appartment.Application\Appartment.Application.csproj", "{213EAAAD-323D-46A6-9FFF-5D2ED2C32FDE}"
 EndProject
@@ -24,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Application", "User.Application\User.Application.csproj", "{1B32E1E7-96FF-43F2-8517-ACDFB56AC73A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "User.API\User.API.csproj", "{F2FF042F-BAAA-4DDF-91A0-C43E17384375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIGateway", "WebAPIGateway\WebAPIGateway.csproj", "{064E97D9-8F44-40EA-B685-17819B528234}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,13 +63,16 @@ Global
 		{F2FF042F-BAAA-4DDF-91A0-C43E17384375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FF042F-BAAA-4DDF-91A0-C43E17384375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FF042F-BAAA-4DDF-91A0-C43E17384375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064E97D9-8F44-40EA-B685-17819B528234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064E97D9-8F44-40EA-B685-17819B528234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064E97D9-8F44-40EA-B685-17819B528234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064E97D9-8F44-40EA-B685-17819B528234}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A877AEC5-F586-4C0F-8DDD-F8CB4FA2EF04} = {C27E2BAC-8247-43AE-9041-7D4C12044ACD}
-		{796843FC-CE03-45F2-992A-471A2150D371} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{213EAAAD-323D-46A6-9FFF-5D2ED2C32FDE} = {C27E2BAC-8247-43AE-9041-7D4C12044ACD}
 		{CAE18F7C-5786-47A8-B0E2-F7CE5B356D58} = {C27E2BAC-8247-43AE-9041-7D4C12044ACD}
 		{4CC54E3F-1DEE-4864-AB0A-AEE39361EF2D} = {C27E2BAC-8247-43AE-9041-7D4C12044ACD}
